@@ -141,7 +141,7 @@ const About = () => {
             exit='hidden'
             
             className="max-w-[500px] mx-auto xl:mx-4 mb-6 xl:mb:12 px-2 xl:px-0">
-            5 years ago, I began freelancing as software engineer. Since then I've
+            5 years ago, I began freelancing as software engineer. Since then I have
             done remote work for clients and organizations as well as collaborated on digital products
             for both business and consumer use.
               
@@ -195,36 +195,37 @@ const About = () => {
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
          {/* { about data pulled from api} */}
-         {aboutData.map((item,itemIndex)=>{
+         {aboutData.map((data,itemIndex)=>{
           return(
             <div key={itemIndex}
             className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} xl:mt-[50px] cursor-pointer capitalize xl:text-lg relative after:w-8
             after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
             onClick={()=>setIndex(itemIndex)}>
 
-              {item.title}
+              {data.title}
 
             </div>
           )
          })}
         </div>
         <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item,index)=>{
+            {aboutData[index].info.map((info,itemIndex)=>{
               return(
-                <div key={index} className="flex flex-1 flex-col md:flex-row 
+                <div key={itemIndex} className="flex flex-1 flex-col md:flex-row 
                 max-w-max gap-x-2 items-center text-white/60">
                   {/* {title} */}
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <div className="font-light mb-2 md:mb-0">{info.title}</div>
 
                   <div className="hidden md:flex "> - </div>
 
-                  <div>{item.stage}</div>
+                  <div>{info.stage}</div>
                   <div className="flex gap-x-4">
                   {/* {icons} */}
-                    {item.icons?.map((icon,index)=>{
+                    {info.icons?.map((icon,index)=>{
                       return(
-                        <div key={index} className="text-2xl text-white">
-                          {icon}
+                        <div key={index}
+                        className="text-2xl text-white">
+                          {icon }
                         </div>
                       )
                     })}

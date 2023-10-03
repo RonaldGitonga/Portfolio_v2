@@ -1,10 +1,4 @@
 
-
-
-
-//icons
-
-
 //components
 import ContactSlider from '../../components/ContactSlider'
 import Bulb from '../../components/Bulb'
@@ -30,7 +24,7 @@ const contact = () => {
             animate='show'
             exit='hidden'
             className='h2 xl:mt-8'>
-            Get In Touch <span className='text-accent'>.</span>
+            Get In  <span className='text-accent'>Touch.</span>
           </motion.h2>
           <motion.p 
              variants={fadeIn('up',0.4)}
@@ -39,7 +33,7 @@ const contact = () => {
              exit='hidden'
 
             className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-            Let's <strong className='text-accent'>connect</strong> and work together.
+            Let`&apos;`s <strong className='text-accent'>connect</strong> and work together.
             
           </motion.p>
         </div>
