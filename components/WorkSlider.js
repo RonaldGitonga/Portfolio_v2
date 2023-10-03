@@ -31,37 +31,37 @@ const workSlides = {
       images: [
         {
           title: 'vazi',
-          path: '/vazi.png',
+          path: '/vazi.PNG',
           link:'vazi.ronaldgitonga.com'
         },
         {
           title: 'Prolog7',
-          path: '/prolog7.png',
+          path: '/prolog7.PNG',
           link:'prolog7.ronaldgitonga.com'
         },
         {
           title: 'Furniture Fortress',
-          path: '/ffortress.png',
+          path: '/ffortress.PNG',
           link:'furniturefortress.ronaldgitonga.com'
         },
         {
           title: 'SokoDuka',
-          path: '/sokoduka2.png',
+          path: '/sokoduka2.PNG',
          link:'sokoDuka.ronaldgitonga.com'
         },
         {
           title: 'Kiota Crypto',
-          path: '/kiotacrypto.png',
+          path: '/kiotacrypto.PNG',
          link:'kiotacrypto.ronaldgitonga.com'
         },
         {
           title: 'GPT3',
-          path: '/gpt3.png',
+          path: '/gpt3.PNG',
          link:'gpt3.ronaldgitonga.com'
         },
         {
           title: 'Flixster',
-          path: '/flixster.png',
+          path: '/flixster.PNG',
          link:'flixster.ronaldgitonga.com'
         },
 
