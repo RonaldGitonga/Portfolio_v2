@@ -209,9 +209,9 @@ const About = () => {
          })}
         </div>
         <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item,itemIndex)=>{
+            {aboutData[index].info.map((item,index)=>{
               return(
-                <div key={itemIndex} className="flex flex-1 flex-col md:flex-row 
+                <div key={index} className="flex flex-1 flex-col md:flex-row 
                 max-w-max gap-x-2 items-center text-white/60">
                   {/* {title} */}
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
@@ -221,9 +221,9 @@ const About = () => {
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                   {/* {icons} */}
-                    {item.icons?.map((icon,itemindex)=>{
+                    {item.icons?.map((icon,index)=>{
                       return(
-                        <div key={itemindex} className="text-2xl text-white">
+                        <div key={index} className="text-2xl text-white">
                           {icon}
                         </div>
                       )
