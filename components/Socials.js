@@ -2,12 +2,7 @@
 import Link from 'next/link'
 
 
-import { FaGithub,
-  FaLinkedin,} from "react-icons/fa"
-
-
-
-
+import { FaGithub, FaLinkedin,} from "react-icons/fa"
 
 const Socials = () => {
   return <div className='flex items-center gap-x-5 text-lg'

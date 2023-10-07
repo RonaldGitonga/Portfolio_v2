@@ -4,8 +4,7 @@ import React,{useState} from "react";
 // icons
 
 import {
-  FaGithub,
-  FaLinkedin,
+ 
   FaHtml5,
   FaCss3,
   FaJs,
@@ -107,10 +106,10 @@ import CountUp from "react-countup";
 const About = () => {
   const[index,setIndex]=useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left" >
-      <Circles/>
+    <div className="h-full sm:h-[200vh] overflow-y-auto  bg-primary/30 py-32 text-center xl:text-left "  >
+      <Circles className/>
       {/* {avatar image} */}
-      <motion.div 
+      {/* <motion.div 
            variants={fadeIn('up',0.5)}
            initial='hidden'
            animate='show'
@@ -119,7 +118,7 @@ const About = () => {
         className="w-full h-full max-w-[400px] max-h-[400px] absolute -bottom-1
         lg:bottom-0 lg:right-[8%]">
           <Avatar/>
-        </motion.div> 
+        </motion.div>  */}
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 

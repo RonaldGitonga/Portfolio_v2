@@ -1,7 +1,6 @@
 //image
 import Image from "next/image";
-//next router
-import { useRouter } from "next/router";
+
 
 //link
 import Link from "next/link";
@@ -13,7 +12,7 @@ import {HiArrowRight} from 'react-icons/hi2'
 
 
 const ProjectsBtn = () => {
-  const router=useRouter();
+
 
   
   return (
@@ -24,11 +23,11 @@ const ProjectsBtn = () => {
         
         <Image src={'/rounded-text.png'} 
         width={141} 
-        height={141} 
+        height={148} 
         alt="roundedtext"
-        className="animate-spin-slow w-full h-full max-w-[141px] max-h-[141px] cursor-pointer"/>
+        className="animate-spin-slow w-full h-full max-w-[141px] max-h-[148px] cursor-pointer"/>
 
-        <HiArrowRight  onClick={()=>router.push('/work')} className="absolute text-4xl group-hover:translate-x-2
+        <HiArrowRight   className="absolute text-4xl group-hover:translate-x-2
         transition-all duration-300 cursor-pointer"/>
 
 
