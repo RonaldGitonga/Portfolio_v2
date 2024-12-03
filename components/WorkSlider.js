@@ -30,39 +30,46 @@ const workSlides = {
  
       images: [
         {
-          title: 'vazi',
-          path: '/vazi.PNG',
-          link:'vazi.ronaldgitonga.com'
+          title: 'Afex Hub',
+          path: '/afexhub.jpg',
+          link:'www.afexhub.co.ke'
         },
+
+     
         {
           title: 'Prolog7',
           path: '/prolog7.PNG',
-          link:'prolog7.ronaldgitonga.com'
+          link:'prolog7.ronaldgitonga.online'
         },
         {
           title: 'Furniture Fortress',
           path: '/ffortress.PNG',
-          link:'furniturefortress.ronaldgitonga.com'
+          link:'furniturefortress.ronaldgitonga.online'
         },
         {
           title: 'SokoDuka',
           path: '/sokoduka2.PNG',
-         link:'sokoDuka.ronaldgitonga.com'
+         link:'sokoduka.ronaldgitonga.online'
         },
         {
           title: 'Kiota Crypto',
           path: '/kiotacrypto.PNG',
-         link:'kiotacrypto.ronaldgitonga.com'
+         link:'kiotacrypto.ronaldgitonga.online'
         },
         {
           title: 'GPT3',
           path: '/gpt3.PNG',
-         link:'gpt3.ronaldgitonga.com'
+         link:'gpt.ronaldgitonga.com'
         },
         {
           title: 'Flixster',
           path: '/flixster.PNG',
          link:'flixster.ronaldgitonga.com'
+        },
+        {
+          title: 'vazi',
+          path: '/vazi.PNG',
+          link:'vazi.ronaldgitonga.online'
         },
 
 

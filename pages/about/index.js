@@ -11,12 +11,17 @@ import {
   FaReact,
   FaRaspberryPi,
   FaFigma,
+  FaPhp,
+  FaJava,
+  FaNodeJs
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
   SiFramer,
   SiPrisma,
+  SiPostgresql,
+
 
   SiMongodb,
   SiArduino,
@@ -46,7 +51,7 @@ const aboutData = [
       },
       {
         title: 'Back End ',
-        icons: [<SiMongodb/>,<GrGraphQl/>,<SiPrisma/> ],
+        icons: [<FaPhp/>,<FaJava/>,<FaNodeJs/>,<SiMongodb/>,<SiPostgresql/>,<GrGraphQl/>,<SiPrisma/>, ],
       },
       {
         title: 'IoT',
@@ -140,7 +145,7 @@ const About = () => {
             exit='hidden'
             
             className="max-w-[500px] mx-auto xl:mx-4 mb-6 xl:mb:12 px-2 xl:px-0">
-            5 years ago, I began freelancing as software engineer. Since then I have
+            4 years ago, I began freelancing as software engineer. Since then I have
             done remote work for clients and organizations as well as collaborated on digital products
             for both business and consumer use.
               
@@ -158,7 +163,7 @@ const About = () => {
             after:bg-white/10 after:absolute after:top-0 after:right-0">
 
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2"> 
-                <CountUp start={0} end={5} duration={10}/> +
+                <CountUp start={0} end={4} duration={10}/> +
               </div>
               <div className="text-xs uppercase tracking-[1px] leading-[1.4]
               max-w-[100px]">Years of experience</div>
