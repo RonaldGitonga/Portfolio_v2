@@ -32,24 +32,24 @@ const workSlides = {
         {
           title: 'Afex Hub',
           path: '/afexhub.jpg',
-          link:'https://vercel.com/ronaldgitongas-projects/afex-1-3-0/93SdhLdn9xCJobxyPn9HEjFTyju6'
+          link:'https://afex-1-3-0.vercel.app/'
         },
 
      
         {
           title: 'Prolog7',
           path: '/prolog7.PNG',
-          link:'https://vercel.com/ronaldgitongas-projects/prologseven/8LYQx1T33MbdvTWvEwNCFL8XVLza'
+          link:'https://prologseven-2bnxcg98k-ronaldgitonga.vercel.app/'
         },
         {
           title: 'Furniture Fortress',
           path: '/ffortress.PNG',
-          link:'https://vercel.com/ronaldgitongas-projects/furniturefortress/5RmdYwKfKB11UQTCasWUfQT4K2sb'
+          link:'https://furniturefortress-5dcvzf105-ronaldgitonga.vercel.app/'
         },
         {
           title: 'SokoDuka',
           path: '/sokoduka2.PNG',
-         link:'https://vercel.com/ronaldgitongas-projects/soko-duka/hfkWnALNdbxGKhV8LSbEJREWGmLM'
+         link:'https://soko-duka-hcovrrjg6-ronaldgitonga.vercel.app/'
         },
         {
           title: 'Kiota Crypto',
