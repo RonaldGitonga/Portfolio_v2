@@ -31,25 +31,25 @@ const workSlides = {
       images: [
         {
           title: 'Afex Hub',
-          path: '/afexhub.jpg',
-          link:'https://afex-1-3-0.vercel.app/'
+          path: '/afexhub.png',
+          link:'afex-1-3-0.vercel.app/'
         },
 
      
         {
           title: 'Prolog7',
           path: '/prolog7.PNG',
-          link:'https://prologseven-2bnxcg98k-ronaldgitonga.vercel.app/'
+          link:'prologseven-2bnxcg98k-ronaldgitonga.vercel.app/'
         },
         {
           title: 'Furniture Fortress',
           path: '/ffortress.PNG',
-          link:'https://furniturefortress-5dcvzf105-ronaldgitonga.vercel.app/'
+          link:'furniturefortress-5dcvzf105-ronaldgitonga.vercel.app/'
         },
         {
           title: 'SokoDuka',
           path: '/sokoduka2.PNG',
-         link:'https://soko-duka-hcovrrjg6-ronaldgitonga.vercel.app/'
+         link:'soko-duka-hcovrrjg6-ronaldgitonga.vercel.app/'
         },
         {
           title: 'Kiota Crypto',
@@ -122,7 +122,7 @@ const WorkSlider =() => {
                     group-hover:xl:-translate-y-20 transition-all duration-300'>
                       <div className='flex items-center gap-x-2 text-[13px] tracking-[0.2em]'>
                         {/* title part 1 */}
-                        <a href={`http://${image.link}`}className='delay-100'>{image.title}</a>
+                        <a href={`https://${image.link}`}className='delay-100'>{image.title}</a>
 
                          {/* title part 2 */}
                          <div className='translate-y-[500%] group-hover:translate-y-0 transition-all
